@@ -28,7 +28,5 @@ const destroy = (position) => {
     index()
 }
 
-destroy(0)
-
 //mengexport method index dan store
 module.exports = { index, store, update, destroy }
